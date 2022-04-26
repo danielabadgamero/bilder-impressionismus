@@ -75,3 +75,13 @@ main {
 .author-name {
     margin-top: 20px;
 }
+
+.painting {
+    width: 1000px;
+    height: auto;
+}
+
+.painting:hover {
+    width: 1000px;
+    height: auto;
+}
