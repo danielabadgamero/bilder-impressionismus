@@ -1,3 +1,8 @@
+@keyframes hoverimg{
+    0%      {height: 400px; width: 400px;}
+    100%    {height: 450px; width: 450px;}
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,8 +19,17 @@ header {
 
 img {
     width: 400px;
-    height: 450px;
+    height: 400px;
     object-fit: cover;
+    object-position: 100% 0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 5px #555;
+}
+
+img:hover {
+    animation-name: hoverimg;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .title {
@@ -36,8 +50,10 @@ img {
 
 main {
     display: flex;
+    padding: 20px 200px;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 100px;
     background-image: linear-gradient(to bottom, #888, #fff);
 }
 
@@ -51,4 +67,15 @@ main {
 .years-alive {
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #222;
+}
+
+.years-alive {
+    margin-bottom: 20px;
+}
+
+.author-name {
+    margin-top: 20px;
 }
