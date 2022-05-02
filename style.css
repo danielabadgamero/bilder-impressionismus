@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
     --background-width: calc(100vw / 720px);
@@ -8,6 +9,12 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 50vh;
 }
 
 .title {
@@ -23,8 +30,9 @@ body {
     color: hsl(6, 71%, 51%);
     letter-spacing: 0.07rem;
     top: -10px;
-    transform: translateX(-15px);
+    transform: translateX(-0.9vw);
     filter: blur(2px);
+    padding: 0;
 }
 
 .background {
@@ -32,4 +40,72 @@ body {
     height: 50vh;
     object-fit: cover;
     object-position: 0 20%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    font-family: 'Mukta', sans-serif;
+}
+
+nav {
+    margin: 3vw;
+    flex: 1;
+    position: sticky;
+    align-self: flex-start;
+    top: 3vw;
+}
+
+.content {
+    background-color: rgb(179, 9, 179);
+    flex: 11;
+    border-left-color: rgb(58, 58, 61);
+    border-left-style: double;
+    border-left-width: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 200px 0;
+}
+
+footer {
+    background-color: gray;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.1em;
+}
+
+.nav {
+    background-color: rgba(255, 255, 0, 0.767);
+    padding: 5vw;
+    border-radius: 2vw;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.card {
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 1em;
+    border-width: 5px;
+    border-color: rgb(11, 24, 146);
+    border-style: ridge;
+}
+
+hr {
+    height: 2px;
+    width: 90%;
+    filter: blur(5px);
+    background-color: aliceblue;
 }
