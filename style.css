@@ -52,7 +52,8 @@ main {
 }
 
 nav {
-    margin: 3vw;
+    margin: 5vw;
+    margin-right: 10vw;
     flex: 1;
     position: sticky;
     align-self: flex-start;
@@ -87,7 +88,8 @@ footer {
 
 .nav {
     background-color: rgba(255, 255, 0, 0.767);
-    padding: 5vw;
+    padding: 2vw;
+    width: 100%;
     border-radius: 2vw;
     border-width: 1px;
     border-style: solid;
@@ -101,6 +103,10 @@ footer {
     border-width: 5px;
     border-color: rgb(11, 24, 146);
     border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 hr {
@@ -108,4 +114,19 @@ hr {
     width: 90%;
     filter: blur(5px);
     background-color: aliceblue;
+}
+
+.content img {
+    height: 50%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+a:visited {
+    color: black;
+}
+
+a {
+    text-decoration: none;
 }
