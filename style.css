@@ -81,7 +81,6 @@ nav {
 
 footer {
     background-color: gray;
-    width: 100vw;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -103,10 +102,10 @@ footer {
 
 .card {
     width: 80%;
-    background-color: aliceblue;
+    background-color: rgba(19, 75, 124, 0.747);
     border-radius: 10px;
     border-width: 5px;
-    border-color: rgb(146, 121, 11);
+    border-color: rgba(146, 133, 11, 0.473);
     border-style: ridge;
     display: flex;
     flex-direction: column;
@@ -119,7 +118,7 @@ footer {
 hr {
     height: 2px;
     width: 90%;
-    filter: blur(5px);
+    filter: blur(2px);
     background-color: aliceblue;
 }
 
