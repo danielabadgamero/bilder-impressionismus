@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-    --background-width: calc(100vw / 720px);
-    width: 100vw;
+    width: 100%;
 }
 
 body {
@@ -12,7 +11,7 @@ body {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
 }
 
 header {
@@ -29,7 +28,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 50vh;
-    width: 100vw;
+    width: 100%;
     font-size: 7em;
     text-transform: uppercase;
     color: hsl(6, 71%, 51%);
@@ -41,7 +40,7 @@ header {
 }
 
 .background {
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     object-fit: cover;
     object-position: 0 20%;
@@ -50,7 +49,7 @@ header {
 }
 
 main {
-    width: 100vw;
+    width: 100%;
     background-color: aliceblue;
     display: flex;
     font-family: 'Mukta', sans-serif;
