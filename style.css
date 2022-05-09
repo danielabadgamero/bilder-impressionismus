@@ -29,13 +29,13 @@ header {
     align-items: center;
     height: 50vh;
     width: 100%;
-    font-size: 7em;
+    font-size: 6vw;
     text-transform: uppercase;
     color: hsl(6, 71%, 51%);
     letter-spacing: 0.07rem;
     top: -10px;
     transform: translateX(-0.9vw);
-    filter: blur(2px);
+    filter: blur(1px);
     padding: 0;
 }
 
