@@ -4,73 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Die wichtigsten Bilder aus dem Impressionismus</title>
+    <title>Die wichtigsten Bilder aus dem Impressionisums</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1 class="title">Die wichtigsten Bilder aus dem Impressionismus</h1>
-        <p class="paragraph">Zur Zeit des Impressionismus gab es viele verschiedene Maler. Ich habe die wichtigsten Autoren, die wir im Kunstunterrich gelernt haben, und habe auch dazu manche mehr hinzugefügt</p>
+        <div class="title">Impressionismus</div>
+        <img src="./background.webp" class="background">
     </header>
     <main>
-        <div class="author" id="claude-monet">
-            <a href="authors/claude-monet.html"><img src="./images/1200px-Autoportret_Claude_Monet.jpg" alt="Bild von Claude Monet"></a>
-            <h3 class="author-name">Claude Monet</h3>
-            <h4 class="years-alive">1840 - 1926</h4>
-        </div>
-        <div class="author" id="edouard-manet">
-            <a href="authors/edouard-manet.html"><img src="./images/edouard-manet-photograph-portrait-1.jpg" alt="Bild von Édouard Manet"></a>
-            <h3 class="author-name">Édouard Manet</h3>
-            <h4 class="years-alive">1832 - 1883</h4>
-        </div>
-        <div class="author" id="paul-cezanne">
-            <a href="authors/paul-cezanne.html"><img src="./images/Cezanne_-_Self-portrait_-_1879-80.jpg" alt="Bild von Paul Cézanne"></a>
-            <h3 class="author-name">Paul Cézanne</h3>
-            <h4 class="years-alive">1839 - 1906</h4>
-        </div>
-        <div class="author" id="pierre-auguste-renoir">
-            <a href="authors/pierre-auguste-renoir.html"><img src="./images/PIERRE-AUGUSTE-RENOIR-1.jpg" alt="Bild von Pierre-Auguste Renoir"></a>
-            <h3 class="author-name">Pierre-Auguste Renoir</h3>
-            <h4 class="years-alive">1841 - 1919</h4>
-        </div>
-        <div class="author" id="edgar-degas">
-            <a href="authors/edgar-degas.html"><img src="./images/edgar-degas-biography.jpg" alt="Bild von Edgar Degas"></a>
-            <h3 class="author-name">Edgar Degas</h3>
-            <h4 class="years-alive">1834 - 1917</h4>
-        </div>
-        <div class="author" id="max-liebermann">
-            <a href="authors/max-liebermann.html"><img src="./images/Liebermann,_Max_-_Selbstbildnis_mit_Pinsel_-_1913_-_Stiftung_Stadtmuseum_Berlin.jpg" alt="Bild von Max Liebermann"></a>
-            <h3 class="author-name">Max Liebermann</h3>
-            <h4 class="years-alive">1847 - 1935</h4>
-        </div>
-        <div class="author" id="camille-pissarro">
-            <a href="authors/camille-pissarro.html"><img src="./images/Camille_Pissarro_040.jpg" alt="Bild von Camille Pissarro"></a>
-            <h3 class="author-name">Camille Pissarro</h3>
-            <h4 class="years-alive">1830 - 1903</h4>
-        </div>
-        <div class="author" id="vincent-van-gogh">
-            <a href="authors/vincent-van-gogh.html"><img src="./images/800px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg" alt="Bild von Vincent van Gogh"></a>
-            <h3 class="author-name">Vincent van Gogh</h3>
-            <h4 class="years-alive">1853 - 1890</h4>
-        </div>
-        <div class="author" id="alfred-sisley">
-            <a href="authors/alfred-sisley.html"><img src="./images/Alfred-sisley.jpg" alt="Bild von Alfred Sisley"></a>
-            <h3 class="author-name">Alfred Sisley</h3>
-            <h4 class="years-alive">1839 - 1899</h4>
-        </div>
-        <div class="author" id="gustave-caillebotte">
-            <a href="authors/gustave-caillebotte.html"><img src="./images/gustave-caillebotte.jpg!Portrait.jpg" alt="Bild von Gustave Caillebotte"></a>
-            <h3 class="author-name">Gustave Caillebotte</h3>
-            <h4 class="years-alive">1848 - 1894</h4>
-        </div>
-        <div class="author" id="berthe-morisot">
-            <a href="authors/berthe-morisot.html"><img src="./images/1200px-Edouard_Manet_-_Berthe_Morisot_With_a_Bouquet_of_Violets_-_Google_Art_Project.jpg" alt="Bild von Berthe Morisot"></a>
-            <h3 class="author-name">Berthe Morisot</h3>
-            <h4 class="years-alive">1841 - 1895</h4>
-        </div>
+            <nav>
+                <div class="nav">
+                    <h1>Künstler</h1>
+                    <ul>
+                        <li><a href="#claude-monet" class="section">Französischer Impressionismus</a></li>
+                        <ul>
+                            <li><a href="#claude-monet">Claude Monet</a></li>
+                            <li><a href="#édouard-manet">Édouard Manet</a></li>
+                            <li><a href="#auguste-renoir">Auguste Renoir</a></li>
+                            <li><a href="#edgar-degas">Edgar Degas</a></li>
+                            <li><a href="#camille-pissarro">Camille Pissarro</a></li>
+                            <li><a href="#vincent-van-gogh">Vincent van Gogh</a></li>
+                            <li><a href="#berthe-morisot">Berthe Morisot</a></li>
+                        </ul>
+                        <li><a href="#max-liebermann" class="section">Deutscher Impressionismus</a></li>
+                        <ul>
+                            <li><a href="#max-liebermann">Max Liebermann</a></li>
+                            <li><a href="#lovis-corinth">Lovis Corinth</a></li>
+                            <li><a href="#max-slevogt">Max Slevogt</a></li>
+                        </ul>
+                        <li><a href="#paul-cézanne" class="section">Wegbereiter der Moderne</a></li>
+                        <ul>
+                            <li><a href="#paul-cézanne">Paul Cézanne</a></li>
+                            <li><a href="#paul-gauguin">Lovis Corinth</a></li>
+                            <li><a href="#vincent-van-gogh">Vincent van Gogh</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </nav>
+            <div class="content">
+                <div class="card" id="claude-monet">
+                    <img src="#" alt="" class="image">
+                </div>
+                <hr>
+                <div class="card" id="édouard-manet">
+                    <img src="#" alt="" class="image">
+                </div>
+                <div class="card" id="auguste-renoir">
+                    <img src="#" alt="" class="image">
+                </div>
+                <hr>
+                <div class="card" id="edgar-degas">
+                    <img src="#" alt="" class="image">
+                </div>
+                <hr>
+                <div class="card" id="camille-pissarro">
+                    <img src="#" alt="" class="image">
+                </div>
+                <hr>
+                <div class="card" id="vincent-van-gogh">
+                    <img src="#" alt="" class="image">
+                </div>
+                <hr>
+                <div class="card" id="berthe-morisot">
+                    <img src="#" alt="" class="image">
+                </div>
+                <hr>
+                <div class="card" id="max-liebermann">
+                    <img src="#" alt="" class="image">
+                </div>
+                <hr>
+                <div class="card" id="lovis-corinth">
+                    <img src="#" alt="" class="image">
+                </div>
+                <hr>
+                <div class="card" id="max-slevogt">
+                    <img src="#" alt="" class="image">
+                </div>
+                <hr>
+                <div class="card" id="paul-cézanne">
+                    <img src="#" alt="" class="image">
+                </div>
+                <hr>
+                <div class="card" id="paul-gauguin">
+                    <img src="#" alt="" class="image">
+                </div>
+            </div>
     </main>
+    <footer>Von Daniel Abad Gamero hergestellt</footer>
 </body>
 </html>
